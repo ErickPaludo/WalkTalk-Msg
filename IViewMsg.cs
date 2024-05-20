@@ -17,5 +17,9 @@ namespace WalkTalk
         {
             get; set;
         }
+        DataGridView GridUser
+        {
+            get;set;
+        }
     }
 }

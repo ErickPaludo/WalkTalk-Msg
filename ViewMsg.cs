@@ -19,6 +19,11 @@ namespace WalkTalk
             controller.EnviarMsg();
         }
 
+        private void dataGridUsers_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
         public RichTextBox Allmsg
         {
             get
@@ -39,6 +44,17 @@ namespace WalkTalk
             set
             {
                 textInf = value;
+            }
+        }
+        public DataGridView GridUser
+        {
+            get
+            {
+                return dataGridUsers;
+            }
+            set
+            {
+                dataGridUsers = value;
             }
         }
 

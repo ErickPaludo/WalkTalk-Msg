@@ -47,7 +47,7 @@ namespace WalkTalk
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message, "Houve um erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                  //  MessageBox.Show(ex.Message, "Houve um erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -72,7 +72,7 @@ namespace WalkTalk
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message, "Houve um erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                  //  MessageBox.Show(ex.Message, "Houve um erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -103,7 +103,7 @@ namespace WalkTalk
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message, "Houve um erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                  //  MessageBox.Show(ex.Message, "Houve um erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }

@@ -50,7 +50,7 @@ namespace WalkTalk
                 if (obj.Id_rem == Usuario.id_us)
                 {
                     int start = viewmsg.Allmsg.TextLength;
-                    string formattedMessage = $"{obj.Name_r}      \n {obj.Msg}\n{obj.Date}\n" + Environment.NewLine;
+                    string formattedMessage = $"{obj.Name_d}      \n {obj.Msg}\n{obj.Date}\n" + Environment.NewLine;
                     viewmsg.Allmsg.AppendText(formattedMessage);
 
                     // Seleciona o texto recém-adicionado
@@ -60,7 +60,7 @@ namespace WalkTalk
                 else
                 {
                     int start = viewmsg.Allmsg.TextLength;
-                    string formattedMessage = $"{obj.Name_r}      \n {obj.Msg}\n{obj.Date}\n" + Environment.NewLine;
+                    string formattedMessage = $"{obj.Name_d}      \n {obj.Msg}\n{obj.Date}\n" + Environment.NewLine;
                     viewmsg.Allmsg.AppendText(formattedMessage);
 
                     // Seleciona o texto recém-adicionado

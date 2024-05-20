@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WalkTalk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b865b0805634fd2e957d90c3f129581d3d89670")]
 [assembly: System.Reflection.AssemblyProductAttribute("WalkTalk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WalkTalk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
