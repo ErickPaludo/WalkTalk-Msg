@@ -117,7 +117,7 @@
             dataGridUsers.RowTemplate.Height = 50;
             dataGridUsers.Size = new Size(284, 412);
             dataGridUsers.TabIndex = 3;
-            dataGridUsers.CellContentClick += dataGridUsers_CellContentClick;
+            dataGridUsers.CellDoubleClick += EscolheUser;
             // 
             // Column1
             // 

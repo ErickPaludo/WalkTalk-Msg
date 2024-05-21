@@ -19,9 +19,13 @@ namespace WalkTalk
             controller.EnviarMsg();
         }
 
-        private void dataGridUsers_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void EscolheUser(object sender, DataGridViewCellEventArgs e)
         {
-
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
+            {
+                controller.SeleiconaContato(dataGridUsers.Rows[e.RowIndex].Cells[0].Value.ToString());
+              
+            }
         }
 
         public RichTextBox Allmsg

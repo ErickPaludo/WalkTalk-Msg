@@ -22,11 +22,15 @@ namespace WalkTalk
             this.viewmsg = viewmsg;
             this.modelmsg = modelmsg;
             viewmsg.SetController(this);
+            modelmsg.CarregaContatos();
+            CarregaContatos();
             modelmsg.RecebeMensagens();
             CarregaMensagens();
             modelmsg.NovaMsg();
             old_id = modelmsg.Id;
-           CheckMsg();
+            CheckMsg();
+            viewmsg.GridUser.Rows.Add("Parangolé");
+            viewmsg.GridUser.Rows.Add("Feijão");
         }
 
         public void EnviarMsg()
@@ -47,22 +51,17 @@ namespace WalkTalk
             viewmsg.Allmsg.Clear();
             foreach(Mensagem obj in modelmsg.Histlist)
             {
+                int start = viewmsg.Allmsg.TextLength;
+                string formattedMessage = $"{obj.Name_r}      \n {obj.Msg}\n{obj.Date}\n" + Environment.NewLine;
+                viewmsg.Allmsg.AppendText(formattedMessage);
                 if (obj.Id_rem == Usuario.id_us)
-                {
-                    int start = viewmsg.Allmsg.TextLength;
-                    string formattedMessage = $"{obj.Name_d}      \n {obj.Msg}\n{obj.Date}\n" + Environment.NewLine;
-                    viewmsg.Allmsg.AppendText(formattedMessage);
-
+                {                 
                     // Seleciona o texto recém-adicionado
                     viewmsg.Allmsg.Select(start, formattedMessage.Length);
                     viewmsg.Allmsg.SelectionAlignment = HorizontalAlignment.Right;
                 }
                 else
                 {
-                    int start = viewmsg.Allmsg.TextLength;
-                    string formattedMessage = $"{obj.Name_d}      \n {obj.Msg}\n{obj.Date}\n" + Environment.NewLine;
-                    viewmsg.Allmsg.AppendText(formattedMessage);
-
                     // Seleciona o texto recém-adicionado
                     viewmsg.Allmsg.Select(start, formattedMessage.Length);
                     viewmsg.Allmsg.SelectionAlignment = HorizontalAlignment.Left;
@@ -72,6 +71,20 @@ namespace WalkTalk
                 viewmsg.Allmsg.ScrollToCaret();
             }
          
+        }
+
+        public void SeleiconaContato(string us)
+        {
+            modelmsg.SetDestinoId(us);
+            CarregaMensagens();
+        }
+
+        public void CarregaContatos()
+        {
+            foreach (Mensagem obj in modelmsg.Contatos)
+            {
+                viewmsg.GridUser.Rows.Add(obj.Msg);
+            }
         }
 
         public async Task CheckMsg()

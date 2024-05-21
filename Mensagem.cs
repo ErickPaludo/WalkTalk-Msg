@@ -8,9 +8,21 @@ namespace WalkTalk
 {
     public class Mensagem
     {
-        private string id_rem, id_dest,name_r,name_d;
+        private int id;
+        private string id_rem,name_r;
         private string msg;
         private DateTime date;
+        public int Id
+        {
+            get
+            {
+            return id;
+            }
+            set
+            {
+            id = value; 
+            }
+        }
         public string Id_rem
         {
             get
@@ -22,17 +34,6 @@ namespace WalkTalk
                 id_rem = value;
             }
         }
-        public string Id_dest
-        {
-            get
-            {
-                return id_dest;
-            }
-            set
-            {
-                id_dest = value;
-            }
-        }
         public string Name_r
         {
             get
@@ -42,17 +43,6 @@ namespace WalkTalk
             set
             {
                 name_r = value;
-            }
-        }
-        public string Name_d
-        {
-            get
-            {
-                return name_d;
-            }
-            set
-            {
-                name_d = value;
             }
         }
         public string Msg
@@ -81,22 +71,27 @@ namespace WalkTalk
         {
         }
 
-        public Mensagem(string id_rem, string id_dest, string msg)
+        public Mensagem(string id_rem, string msg)
         {
             this.id_rem = id_rem;
-            this.id_dest = id_dest;
+
             this.msg = msg;
         }
 
-        public Mensagem(string id_rem, string id_dest, string msg, DateTime date) : this(id_rem, id_dest, msg)
+        public Mensagem(int id, string name_r)
+        {
+            this.id = id;
+            this.name_r = name_r;
+        }
+
+        public Mensagem(string id_rem, string msg, DateTime date) : this(id_rem, msg)
         {
             this.date = date;
         }
 
-        public Mensagem(string id_rem, string id_dest, string name_r, string name_d, string msg, DateTime date) : this(id_rem, id_dest, name_r)
+        public Mensagem(string id_rem, string name_r, string msg, DateTime date) : this(id_rem, name_r)
         {
             this.name_r = name_r;
-            this.name_d = name_d;
             this.msg = msg;
             this.date = date;
         }

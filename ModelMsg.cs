@@ -16,7 +16,16 @@ namespace WalkTalk
         {
             get
             {
-            return id_ultima_msg; 
+                return id_ultima_msg;
+            }
+        }
+
+        static private List<Mensagem> contatos = new List<Mensagem>();
+        public List<Mensagem> Contatos
+        {
+            get
+            {
+                return contatos;
             }
         }
 
@@ -29,9 +38,9 @@ namespace WalkTalk
             }
         }
 
-        public void Env(string id_r, string id_d,string mensagem)
+        public void Env(string id_r, string id_d, string mensagem)
         {
-            using (OracleConnection connection = new OracleConnection(endereco_banco))
+          /*  using (OracleConnection connection = new OracleConnection(endereco_banco))
             {
                 try
                 {
@@ -47,13 +56,13 @@ namespace WalkTalk
                 }
                 catch (Exception ex)
                 {
-                  //  MessageBox.Show(ex.Message, "Houve um erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(ex.Message, "Houve um erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-            }
+            }*/
         }
-         public void RecebeMensagens()
+        public void RecebeMensagens()
         {
-            using (OracleConnection connection = new OracleConnection(endereco_banco))
+          /*  using (OracleConnection connection = new OracleConnection(endereco_banco))
             {
                 try
                 {
@@ -64,7 +73,7 @@ namespace WalkTalk
                         {
                             while (reader.Read())
                             {
-                                histlist.Add(new Mensagem(reader["id_remetente"].ToString(), reader["id_destinatario"].ToString(), reader["remetente"].ToString(), reader["destinatario"].ToString(), reader["msg"].ToString(), Convert.ToDateTime(reader["data_envio"])));
+                                histlist.Add(new Mensagem(reader["id_remetente"].ToString(), reader["remetente"].ToString(), reader["msg"].ToString(), Convert.ToDateTime(reader["data_envio"])));
                             }
 
                         }
@@ -72,13 +81,13 @@ namespace WalkTalk
                 }
                 catch (Exception ex)
                 {
-                  //  MessageBox.Show(ex.Message, "Houve um erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(ex.Message, "Houve um erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-            }
+            }*/
         }
         public void NovaMsg()
         {
-            using (OracleConnection connection = new OracleConnection(endereco_banco))
+         /*  using (OracleConnection connection = new OracleConnection(endereco_banco))
             {
                 try
                 {
@@ -103,9 +112,44 @@ namespace WalkTalk
                 }
                 catch (Exception ex)
                 {
-                  //  MessageBox.Show(ex.Message, "Houve um erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(ex.Message, "Houve um erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }*/
+        }
+        public void SetDestinoId(string us)
+        {
+            foreach (Mensagem obj in contatos)
+            {
+                if (obj.Msg == us)
+                {
+                    Usuario.id_des = obj.Id.ToString();
                 }
             }
+        }
+        public void CarregaContatos()
+        {
+          /*  using (OracleConnection connection = new OracleConnection(endereco_banco))
+            {
+                try
+                {
+                    connection.Open();
+                    using (OracleCommand cmd = new OracleCommand($"select * from view_user", connection))
+                    {
+                        using (OracleDataReader reader = cmd.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                contatos.Add(new Mensagem(Convert.ToInt32(reader["id"]), reader["nome"].ToString()));
+                            }
+
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "Houve um erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }*/
         }
 
     }
