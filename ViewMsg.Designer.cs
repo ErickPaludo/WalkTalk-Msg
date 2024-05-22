@@ -84,7 +84,7 @@
             dataGridUsers.AllowUserToAddRows = false;
             dataGridUsers.AllowUserToDeleteRows = false;
             dataGridUsers.AllowUserToResizeColumns = false;
-            dataGridUsers.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            dataGridUsers.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dataGridUsers.BackgroundColor = SystemColors.ControlDarkDark;
             dataGridUsers.BorderStyle = BorderStyle.None;
             dataGridUsers.ClipboardCopyMode = DataGridViewClipboardCopyMode.Disable;
@@ -117,7 +117,7 @@
             dataGridUsers.RowTemplate.Height = 50;
             dataGridUsers.Size = new Size(284, 412);
             dataGridUsers.TabIndex = 3;
-            dataGridUsers.CellDoubleClick += EscolheUser;
+            dataGridUsers.CellClick += EscolheUser;
             // 
             // Column1
             // 

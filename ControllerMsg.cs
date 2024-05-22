@@ -25,12 +25,6 @@ namespace WalkTalk
             modelmsg.CarregaContatos();
             CarregaContatos();
             modelmsg.RecebeMensagens();
-            CarregaMensagens();
-            modelmsg.NovaMsg();
-            old_id = modelmsg.Id;
-            CheckMsg();
-            viewmsg.GridUser.Rows.Add("Parangolé");
-            viewmsg.GridUser.Rows.Add("Feijão");
         }
 
         public void EnviarMsg()
@@ -75,15 +69,19 @@ namespace WalkTalk
 
         public void SeleiconaContato(string us)
         {
-            modelmsg.SetDestinoId(us);
+             modelmsg.SetDestinoId(us);          
+            modelmsg.RecebeMensagens();
             CarregaMensagens();
+            modelmsg.NovaMsg();
+             old_id = modelmsg.Id;
+             CheckMsg();
         }
 
         public void CarregaContatos()
         {
             foreach (Mensagem obj in modelmsg.Contatos)
             {
-                viewmsg.GridUser.Rows.Add(obj.Msg);
+                viewmsg.GridUser.Rows.Add(obj.Name_r);
             }
         }
 

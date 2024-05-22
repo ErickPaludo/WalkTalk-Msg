@@ -40,7 +40,7 @@ namespace WalkTalk
 
         public void Env(string id_r, string id_d, string mensagem)
         {
-          /*  using (OracleConnection connection = new OracleConnection(endereco_banco))
+           using (OracleConnection connection = new OracleConnection(endereco_banco))
             {
                 try
                 {
@@ -58,11 +58,11 @@ namespace WalkTalk
                 {
                     MessageBox.Show(ex.Message, "Houve um erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-            }*/
+            }
         }
         public void RecebeMensagens()
         {
-          /*  using (OracleConnection connection = new OracleConnection(endereco_banco))
+            using (OracleConnection connection = new OracleConnection(endereco_banco))
             {
                 try
                 {
@@ -71,6 +71,7 @@ namespace WalkTalk
                     {
                         using (OracleDataReader reader = cmd.ExecuteReader())
                         {
+                            histlist.Clear();
                             while (reader.Read())
                             {
                                 histlist.Add(new Mensagem(reader["id_remetente"].ToString(), reader["remetente"].ToString(), reader["msg"].ToString(), Convert.ToDateTime(reader["data_envio"])));
@@ -83,16 +84,16 @@ namespace WalkTalk
                 {
                     MessageBox.Show(ex.Message, "Houve um erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-            }*/
+            }
         }
         public void NovaMsg()
         {
-         /*  using (OracleConnection connection = new OracleConnection(endereco_banco))
+          using (OracleConnection connection = new OracleConnection(endereco_banco))
             {
                 try
                 {
                     connection.Open();
-                    using (OracleCommand cmd = new OracleCommand("SELECT MAX(id) as id FROM wlk_msg WHERE (id_destinatario = 2 OR id_destinatario = 1) AND (id_remetente = 1 OR id_remetente = 2)", connection))
+                    using (OracleCommand cmd = new OracleCommand($"SELECT MAX(id) as id FROM wlk_msg WHERE (id_destinatario = {Usuario.id_des} OR id_destinatario = {Usuario.id_us}) AND (id_remetente = {Usuario.id_us} OR id_remetente = {Usuario.id_des})", connection))
                     {
                         using (OracleDataReader reader = cmd.ExecuteReader())
                         {
@@ -114,32 +115,33 @@ namespace WalkTalk
                 {
                     MessageBox.Show(ex.Message, "Houve um erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-            }*/
+            }
         }
         public void SetDestinoId(string us)
         {
             foreach (Mensagem obj in contatos)
             {
-                if (obj.Msg == us)
+                if (obj.Name_r == us)
                 {
                     Usuario.id_des = obj.Id.ToString();
+                    break;
                 }
             }
         }
         public void CarregaContatos()
         {
-          /*  using (OracleConnection connection = new OracleConnection(endereco_banco))
+            using (OracleConnection connection = new OracleConnection(endereco_banco))
             {
                 try
                 {
                     connection.Open();
-                    using (OracleCommand cmd = new OracleCommand($"select * from view_user", connection))
+                    using (OracleCommand cmd = new OracleCommand($"select * from wlk_users where id != {Usuario.id_us}", connection))
                     {
                         using (OracleDataReader reader = cmd.ExecuteReader())
                         {
                             while (reader.Read())
                             {
-                                contatos.Add(new Mensagem(Convert.ToInt32(reader["id"]), reader["nome"].ToString()));
+                                contatos.Add(new Mensagem(Convert.ToInt32(reader["id"]), reader["usuario"].ToString()));
                             }
 
                         }
@@ -149,7 +151,7 @@ namespace WalkTalk
                 {
                     MessageBox.Show(ex.Message, "Houve um erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-            }*/
+            }
         }
 
     }
