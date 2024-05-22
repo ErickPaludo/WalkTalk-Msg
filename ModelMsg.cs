@@ -9,7 +9,7 @@ namespace WalkTalk
 {
     public class ModelMsg
     {
-        private string endereco_banco = "Data Source=25.50.68.130:1521/freepdb1;User Id =WalkTalk_for_dev;Password=WalkTalk_for_dev;";
+        private string endereco_banco = "Data Source=25.50.68.130:1521/freepdb1;User Id =Vanilla_for_dev;Password=Vanilla_for_dev;";
         private static int id_ultima_msg;
         Mensagem msginf = new Mensagem();
         public int Id
@@ -45,7 +45,7 @@ namespace WalkTalk
                 try
                 {
                     connection.Open();
-                    using (OracleCommand cmd = new OracleCommand("prc_env_msg", connection))
+                    using (OracleCommand cmd = new OracleCommand("vnl_prc_msg", connection))
                     {
                         cmd.CommandType = System.Data.CommandType.StoredProcedure;
                         cmd.Parameters.Add("v_id_remetente", OracleDbType.Int16).Value = Convert.ToInt32(id_r);
@@ -67,14 +67,14 @@ namespace WalkTalk
                 try
                 {
                     connection.Open();
-                    using (OracleCommand cmd = new OracleCommand($"select * from view_msg w where w.id_remetente = {Usuario.id_us} and w.id_destinatario = {Usuario.id_des} or w.id_remetente = {Usuario.id_des} and w.id_destinatario = {Usuario.id_us} order by data_envio", connection))
+                    using (OracleCommand cmd = new OracleCommand($"select * from view_msg w where w.id_remetente = {Usuario.id_us} and w.id_destinatario = {Usuario.id_des} or w.id_remetente = {Usuario.id_des} and w.id_destinatario = {Usuario.id_us} order by dthr", connection))
                     {
                         using (OracleDataReader reader = cmd.ExecuteReader())
                         {
                             histlist.Clear();
                             while (reader.Read())
                             {
-                                histlist.Add(new Mensagem(reader["id_remetente"].ToString(), reader["remetente"].ToString(), reader["msg"].ToString(), Convert.ToDateTime(reader["data_envio"])));
+                                histlist.Add(new Mensagem(reader["id_remetente"].ToString(), reader["remetente"].ToString(), reader["msg"].ToString(), Convert.ToDateTime(reader["dthr"])));
                             }
 
                         }
@@ -93,7 +93,7 @@ namespace WalkTalk
                 try
                 {
                     connection.Open();
-                    using (OracleCommand cmd = new OracleCommand($"SELECT MAX(id) as id FROM wlk_msg WHERE (id_destinatario = {Usuario.id_des} OR id_destinatario = {Usuario.id_us}) AND (id_remetente = {Usuario.id_us} OR id_remetente = {Usuario.id_des})", connection))
+                    using (OracleCommand cmd = new OracleCommand($"SELECT MAX(id) as id FROM vnl_msg WHERE (destinatario = {Usuario.id_des} OR destinatario = {Usuario.id_us}) AND (remetente = {Usuario.id_us} OR remetente = {Usuario.id_des})", connection))
                     {
                         using (OracleDataReader reader = cmd.ExecuteReader())
                         {
@@ -135,13 +135,13 @@ namespace WalkTalk
                 try
                 {
                     connection.Open();
-                    using (OracleCommand cmd = new OracleCommand($"select * from wlk_users where id != {Usuario.id_us}", connection))
+                    using (OracleCommand cmd = new OracleCommand($"select * from vnl_user where id != {Usuario.id_us}", connection))
                     {
                         using (OracleDataReader reader = cmd.ExecuteReader())
                         {
                             while (reader.Read())
                             {
-                                contatos.Add(new Mensagem(Convert.ToInt32(reader["id"]), reader["usuario"].ToString()));
+                                contatos.Add(new Mensagem(Convert.ToInt32(reader["id"]), reader["login"].ToString()));
                             }
 
                         }

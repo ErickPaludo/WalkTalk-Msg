@@ -21,5 +21,9 @@ namespace WalkTalk
         {
             get;set;
         }
+        Label Destinatario
+        {
+            get;set;
+        }
     }
 }

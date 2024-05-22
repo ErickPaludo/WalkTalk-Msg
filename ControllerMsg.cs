@@ -69,7 +69,8 @@ namespace WalkTalk
 
         public void SeleiconaContato(string us)
         {
-             modelmsg.SetDestinoId(us);          
+            viewmsg.Destinatario.Text = us;
+            modelmsg.SetDestinoId(us);          
             modelmsg.RecebeMensagens();
             CarregaMensagens();
             modelmsg.NovaMsg();

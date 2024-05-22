@@ -61,6 +61,17 @@ namespace WalkTalk
                 dataGridUsers = value;
             }
         }
+        public Label Destinatario
+        {
+            get
+            {
+                return lDestinatario;
+            }
+            set
+            {
+                lDestinatario = value;
+            }
+        }
 
     }
 }

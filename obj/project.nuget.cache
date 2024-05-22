@@ -1,17 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "wvth3KnmlKbIipg1WDfxunXoC7E3Qn1exEVyOXM5EJk/ulqTk3elSSsjXXzrgymeYpzMrMdCvqYssUZnoVkp6Q==",
+  "dgSpecHash": "VIbsLXjuf0xTYqSS3Azz0PXsReQg51MulfnrOQKaR617wNQQP2Qps712/qnjGDX7x/Eo6L3/JflDWcEzz6sMdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\erick\\OneDrive\\Área de Trabalho\\WalkTalk-Msg\\WalkTalk.csproj",
+  "projectFilePath": "C:\\Users\\Erick\\Desktop\\WalkTalk-Msg\\WalkTalk.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\erick\\.nuget\\packages\\oracle.manageddataaccess.core\\23.4.0\\oracle.manageddataaccess.core.23.4.0.nupkg.sha512",
-    "C:\\Users\\erick\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
-    "C:\\Users\\erick\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
-    "C:\\Users\\erick\\.nuget\\packages\\system.diagnostics.performancecounter\\8.0.0\\system.diagnostics.performancecounter.8.0.0.nupkg.sha512",
-    "C:\\Users\\erick\\.nuget\\packages\\system.directoryservices.protocols\\8.0.0\\system.directoryservices.protocols.8.0.0.nupkg.sha512",
-    "C:\\Users\\erick\\.nuget\\packages\\system.formats.asn1\\8.0.0\\system.formats.asn1.8.0.0.nupkg.sha512",
-    "C:\\Users\\erick\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.0\\system.security.cryptography.pkcs.8.0.0.nupkg.sha512",
-    "C:\\Users\\erick\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
+    "C:\\Users\\Erick\\.nuget\\packages\\oracle.manageddataaccess.core\\23.4.0\\oracle.manageddataaccess.core.23.4.0.nupkg.sha512",
+    "C:\\Users\\Erick\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
+    "C:\\Users\\Erick\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
+    "C:\\Users\\Erick\\.nuget\\packages\\system.diagnostics.performancecounter\\8.0.0\\system.diagnostics.performancecounter.8.0.0.nupkg.sha512",
+    "C:\\Users\\Erick\\.nuget\\packages\\system.directoryservices.protocols\\8.0.0\\system.directoryservices.protocols.8.0.0.nupkg.sha512",
+    "C:\\Users\\Erick\\.nuget\\packages\\system.formats.asn1\\8.0.0\\system.formats.asn1.8.0.0.nupkg.sha512",
+    "C:\\Users\\Erick\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.0\\system.security.cryptography.pkcs.8.0.0.nupkg.sha512",
+    "C:\\Users\\Erick\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

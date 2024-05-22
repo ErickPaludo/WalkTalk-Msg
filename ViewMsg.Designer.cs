@@ -36,30 +36,32 @@
             bEnv = new Button();
             dataGridUsers = new DataGridView();
             Column1 = new DataGridViewTextBoxColumn();
+            label1 = new Label();
+            lDestinatario = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridUsers).BeginInit();
             SuspendLayout();
             // 
             // richAllMsg
             // 
             richAllMsg.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            richAllMsg.BackColor = Color.FromArgb(64, 64, 64);
-            richAllMsg.BorderStyle = BorderStyle.None;
-            richAllMsg.ForeColor = SystemColors.Window;
+            richAllMsg.BackColor = Color.WhiteSmoke;
+            richAllMsg.BorderStyle = BorderStyle.FixedSingle;
+            richAllMsg.ForeColor = Color.Black;
             richAllMsg.ImeMode = ImeMode.Off;
-            richAllMsg.Location = new Point(302, 12);
+            richAllMsg.Location = new Point(303, 12);
             richAllMsg.Name = "richAllMsg";
             richAllMsg.ReadOnly = true;
-            richAllMsg.Size = new Size(705, 359);
+            richAllMsg.Size = new Size(705, 377);
             richAllMsg.TabIndex = 0;
             richAllMsg.Text = "";
             // 
             // textInf
             // 
             textInf.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            textInf.BackColor = Color.FromArgb(64, 64, 64);
+            textInf.BackColor = Color.WhiteSmoke;
             textInf.BorderStyle = BorderStyle.FixedSingle;
-            textInf.ForeColor = SystemColors.Menu;
-            textInf.Location = new Point(302, 382);
+            textInf.ForeColor = SystemColors.InactiveCaptionText;
+            textInf.Location = new Point(302, 414);
             textInf.Multiline = true;
             textInf.Name = "textInf";
             textInf.Size = new Size(616, 42);
@@ -68,10 +70,10 @@
             // bEnv
             // 
             bEnv.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            bEnv.BackColor = Color.FromArgb(64, 64, 64);
+            bEnv.BackColor = Color.WhiteSmoke;
             bEnv.FlatStyle = FlatStyle.Popup;
-            bEnv.ForeColor = SystemColors.ButtonHighlight;
-            bEnv.Location = new Point(924, 382);
+            bEnv.ForeColor = SystemColors.ActiveCaptionText;
+            bEnv.Location = new Point(925, 414);
             bEnv.Name = "bEnv";
             bEnv.Size = new Size(83, 42);
             bEnv.TabIndex = 2;
@@ -84,8 +86,8 @@
             dataGridUsers.AllowUserToAddRows = false;
             dataGridUsers.AllowUserToDeleteRows = false;
             dataGridUsers.AllowUserToResizeColumns = false;
-            dataGridUsers.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            dataGridUsers.BackgroundColor = SystemColors.ControlDarkDark;
+            dataGridUsers.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            dataGridUsers.BackgroundColor = SystemColors.ButtonHighlight;
             dataGridUsers.BorderStyle = BorderStyle.None;
             dataGridUsers.ClipboardCopyMode = DataGridViewClipboardCopyMode.Disable;
             dataGridUsers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -93,14 +95,15 @@
             dataGridUsers.Columns.AddRange(new DataGridViewColumn[] { Column1 });
             dataGridUsers.Cursor = Cursors.Hand;
             dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = Color.FromArgb(64, 64, 64);
+            dataGridViewCellStyle1.BackColor = Color.FromArgb(128, 128, 255);
             dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F);
             dataGridViewCellStyle1.ForeColor = SystemColors.ButtonHighlight;
             dataGridViewCellStyle1.Padding = new Padding(5);
-            dataGridViewCellStyle1.SelectionBackColor = SystemColors.ControlDark;
+            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(192, 192, 255);
             dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.False;
             dataGridUsers.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridUsers.GridColor = Color.FromArgb(128, 128, 255);
             dataGridUsers.Location = new Point(12, 12);
             dataGridUsers.Name = "dataGridUsers";
             dataGridUsers.ReadOnly = true;
@@ -115,8 +118,8 @@
             dataGridUsers.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             dataGridUsers.RowHeadersVisible = false;
             dataGridUsers.RowTemplate.Height = 50;
-            dataGridUsers.Size = new Size(284, 412);
-            dataGridUsers.TabIndex = 3;
+            dataGridUsers.Size = new Size(284, 430);
+            dataGridUsers.TabIndex = 0;
             dataGridUsers.CellClick += EscolheUser;
             // 
             // Column1
@@ -126,12 +129,35 @@
             Column1.Name = "Column1";
             Column1.ReadOnly = true;
             // 
+            // label1
+            // 
+            label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label1.AutoSize = true;
+            label1.ForeColor = SystemColors.ActiveCaptionText;
+            label1.Location = new Point(303, 392);
+            label1.Name = "label1";
+            label1.Size = new Size(160, 15);
+            label1.TabIndex = 4;
+            label1.Text = "Você está conversando com: ";
+            // 
+            // lDestinatario
+            // 
+            lDestinatario.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            lDestinatario.AutoSize = true;
+            lDestinatario.ForeColor = SystemColors.ActiveCaptionText;
+            lDestinatario.Location = new Point(469, 392);
+            lDestinatario.Name = "lDestinatario";
+            lDestinatario.Size = new Size(0, 15);
+            lDestinatario.TabIndex = 5;
+            // 
             // ViewMsg
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ControlDarkDark;
-            ClientSize = new Size(1020, 450);
+            BackColor = SystemColors.ButtonHighlight;
+            ClientSize = new Size(1020, 468);
+            Controls.Add(lDestinatario);
+            Controls.Add(label1);
             Controls.Add(dataGridUsers);
             Controls.Add(bEnv);
             Controls.Add(textInf);
@@ -152,5 +178,7 @@
         private Button bEnv;
         private DataGridView dataGridUsers;
         private DataGridViewTextBoxColumn Column1;
+        private Label label1;
+        private Label lDestinatario;
     }
 }
