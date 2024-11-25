@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WalkTalk
+namespace WalkTalk.MVC
 {
     public interface IViewMsg
     {
@@ -19,7 +19,11 @@ namespace WalkTalk
         }
         DataGridView GridUser
         {
-            get;set;
+            get; set;
+        }
+        OpenFileDialog File
+        {
+            get; set;
         }
     }
 }

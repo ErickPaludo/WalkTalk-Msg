@@ -4,7 +4,7 @@
     <Compile Update="EscolherUser\EscolherUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ViewMsg.cs">
+    <Compile Update="MVC\ViewMsg.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

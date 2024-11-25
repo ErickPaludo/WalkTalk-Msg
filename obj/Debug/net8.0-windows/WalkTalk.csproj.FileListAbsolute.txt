@@ -111,3 +111,28 @@ C:\Users\erick\OneDrive\Área de Trabalho\WalkTalk-Msg\obj\Debug\net8.0-windows\
 C:\Users\erick\OneDrive\Área de Trabalho\WalkTalk-Msg\obj\Debug\net8.0-windows\WalkTalk.pdb
 C:\Users\erick\OneDrive\Área de Trabalho\WalkTalk-Msg\obj\Debug\net8.0-windows\WalkTalk.genruntimeconfig.cache
 C:\Users\erick\OneDrive\Área de Trabalho\WalkTalk-Msg\obj\Debug\net8.0-windows\ref\WalkTalk.dll
+C:\Fullsoft\Estudos\WalkTalk-Msg\bin\Debug\net8.0-windows\WalkTalk.exe
+C:\Fullsoft\Estudos\WalkTalk-Msg\bin\Debug\net8.0-windows\WalkTalk.deps.json
+C:\Fullsoft\Estudos\WalkTalk-Msg\bin\Debug\net8.0-windows\WalkTalk.runtimeconfig.json
+C:\Fullsoft\Estudos\WalkTalk-Msg\bin\Debug\net8.0-windows\WalkTalk.dll
+C:\Fullsoft\Estudos\WalkTalk-Msg\bin\Debug\net8.0-windows\WalkTalk.pdb
+C:\Fullsoft\Estudos\WalkTalk-Msg\bin\Debug\net8.0-windows\Oracle.ManagedDataAccess.dll
+C:\Fullsoft\Estudos\WalkTalk-Msg\bin\Debug\net8.0-windows\System.DirectoryServices.Protocols.dll
+C:\Fullsoft\Estudos\WalkTalk-Msg\bin\Debug\net8.0-windows\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Fullsoft\Estudos\WalkTalk-Msg\bin\Debug\net8.0-windows\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Fullsoft\Estudos\WalkTalk-Msg\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Fullsoft\Estudos\WalkTalk-Msg\obj\Debug\net8.0-windows\WalkTalk.csproj.AssemblyReference.cache
+C:\Fullsoft\Estudos\WalkTalk-Msg\obj\Debug\net8.0-windows\WalkTalk.EscolherUser.resources
+C:\Fullsoft\Estudos\WalkTalk-Msg\obj\Debug\net8.0-windows\WalkTalk.ViewMsg.resources
+C:\Fullsoft\Estudos\WalkTalk-Msg\obj\Debug\net8.0-windows\WalkTalk.csproj.GenerateResource.cache
+C:\Fullsoft\Estudos\WalkTalk-Msg\obj\Debug\net8.0-windows\WalkTalk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fullsoft\Estudos\WalkTalk-Msg\obj\Debug\net8.0-windows\WalkTalk.AssemblyInfoInputs.cache
+C:\Fullsoft\Estudos\WalkTalk-Msg\obj\Debug\net8.0-windows\WalkTalk.AssemblyInfo.cs
+C:\Fullsoft\Estudos\WalkTalk-Msg\obj\Debug\net8.0-windows\WalkTalk.csproj.CoreCompileInputs.cache
+C:\Fullsoft\Estudos\WalkTalk-Msg\obj\Debug\net8.0-windows\WalkTalk.sourcelink.json
+C:\Fullsoft\Estudos\WalkTalk-Msg\obj\Debug\net8.0-windows\WalkTalk.csproj.Up2Date
+C:\Fullsoft\Estudos\WalkTalk-Msg\obj\Debug\net8.0-windows\WalkTalk.dll
+C:\Fullsoft\Estudos\WalkTalk-Msg\obj\Debug\net8.0-windows\refint\WalkTalk.dll
+C:\Fullsoft\Estudos\WalkTalk-Msg\obj\Debug\net8.0-windows\WalkTalk.pdb
+C:\Fullsoft\Estudos\WalkTalk-Msg\obj\Debug\net8.0-windows\WalkTalk.genruntimeconfig.cache
+C:\Fullsoft\Estudos\WalkTalk-Msg\obj\Debug\net8.0-windows\ref\WalkTalk.dll

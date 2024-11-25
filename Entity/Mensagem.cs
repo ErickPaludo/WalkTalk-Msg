@@ -9,7 +9,7 @@ namespace WalkTalk
     public class Mensagem
     {
         private int id;
-        private string id_rem,name_r;
+        private string nome_remetente,nome_dest;
         private string msg;
         private DateTime date;
         public int Id
@@ -23,26 +23,26 @@ namespace WalkTalk
             id = value; 
             }
         }
-        public string Id_rem
+        public string Nome_remetente
         {
             get
             {
-                return id_rem;
+                return nome_remetente;
             }
             set
             {
-                id_rem = value;
+                nome_remetente = value;
             }
         }
-        public string Name_r
+        public string Nome_dest
         {
             get
             {
-                return name_r;
+                return nome_dest;
             }
             set
             {
-                name_r = value;
+                nome_dest = value;
             }
         }
         public string Msg
@@ -71,27 +71,10 @@ namespace WalkTalk
         {
         }
 
-        public Mensagem(string id_rem, string msg)
+        public Mensagem(string nome_remetente, string nome_dest, string msg, DateTime date) 
         {
-            this.id_rem = id_rem;
-
-            this.msg = msg;
-        }
-
-        public Mensagem(int id, string name_r)
-        {
-            this.id = id;
-            this.name_r = name_r;
-        }
-
-        public Mensagem(string id_rem, string msg, DateTime date) : this(id_rem, msg)
-        {
-            this.date = date;
-        }
-
-        public Mensagem(string id_rem, string name_r, string msg, DateTime date) : this(id_rem, name_r)
-        {
-            this.name_r = name_r;
+            this.nome_remetente = nome_remetente;
+            this.nome_dest = nome_dest;
             this.msg = msg;
             this.date = date;
         }

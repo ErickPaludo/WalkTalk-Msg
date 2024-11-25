@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalkTalk", "WalkTalk.csproj", "{C75AD884-A68A-4F6E-A893-D397A1C67C45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WalkTalk", "WalkTalk.csproj", "{C75AD884-A68A-4F6E-A893-D397A1C67C45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalkTalkService", "..\WalkTalkService\WalkTalkService.csproj", "{90765DB1-06F2-4BFC-A656-52D03E57B812}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C75AD884-A68A-4F6E-A893-D397A1C67C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C75AD884-A68A-4F6E-A893-D397A1C67C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C75AD884-A68A-4F6E-A893-D397A1C67C45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90765DB1-06F2-4BFC-A656-52D03E57B812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90765DB1-06F2-4BFC-A656-52D03E57B812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90765DB1-06F2-4BFC-A656-52D03E57B812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90765DB1-06F2-4BFC-A656-52D03E57B812}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

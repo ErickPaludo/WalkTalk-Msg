@@ -1,46 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\",
+  "WorkspaceRootPath": "C:\\Fullsoft\\Estudos\\WalkTalk-Msg\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|c:\\users\\erick\\onedrive\\\u00E1rea de trabalho\\walktalk-msg\\viewmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|solutionrelative:viewmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|c:\\fullsoft\\estudos\\walktalk-msg\\mvc\\viewmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|solutionrelative:mvc\\viewmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\viewmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|solutionrelative:viewmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|c:\\fullsoft\\estudos\\walktalk-msg\\mvc\\controllermsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|solutionrelative:mvc\\controllermsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\escolheruser\\escolheruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|solutionrelative:escolheruser\\escolheruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|c:\\fullsoft\\estudos\\walktalk-msg\\mvc\\modelmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|solutionrelative:mvc\\modelmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\modelmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|solutionrelative:modelmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|c:\\fullsoft\\estudos\\walktalk-msg\\mvc\\viewmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|solutionrelative:mvc\\viewmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|c:\\users\\erick\\onedrive\\\u00E1rea de trabalho\\walktalk-msg\\controllermsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|solutionrelative:controllermsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|c:\\fullsoft\\estudos\\walktalk-msg\\mvc\\iviewmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|solutionrelative:mvc\\iviewmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|c:\\users\\erick\\onedrive\\\u00E1rea de trabalho\\walktalk-msg\\escolheruser\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|c:\\fullsoft\\estudos\\walktalk-msg\\escolheruser\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|solutionrelative:escolheruser\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\mensagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|solutionrelative:mensagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|c:\\fullsoft\\estudos\\walktalk-msg\\entity\\mensagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|solutionrelative:entity\\mensagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\escolheruser\\escolheruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|solutionrelative:escolheruser\\escolheruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\escolheruser\\escolheruser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|solutionrelative:escolheruser\\escolheruser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|c:\\fullsoft\\estudos\\walktalk-msg\\entity\\contatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75AD884-A68A-4F6E-A893-D397A1C67C45}|WalkTalk.csproj|solutionrelative:entity\\contatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,133 +42,109 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ViewMsg.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\ViewMsg.cs",
-              "RelativeDocumentMoniker": "ViewMsg.cs",
-              "ToolTip": "C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\ViewMsg.cs [Projeto]",
-              "RelativeToolTip": "ViewMsg.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T23:36:01.549Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ViewMsg.cs",
-              "DocumentMoniker": "C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\ViewMsg.cs",
-              "RelativeDocumentMoniker": "ViewMsg.cs",
-              "ToolTip": "C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\ViewMsg.cs",
-              "RelativeToolTip": "ViewMsg.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAawBcAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T21:35:32.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ControllerMsg.cs",
-              "DocumentMoniker": "C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\ControllerMsg.cs",
-              "RelativeDocumentMoniker": "ControllerMsg.cs",
-              "ToolTip": "C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\ControllerMsg.cs",
-              "RelativeToolTip": "ControllerMsg.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAkwCsAAAAIAAAA",
+              "Title": "IViewMsg.cs",
+              "DocumentMoniker": "C:\\Fullsoft\\Estudos\\WalkTalk-Msg\\MVC\\IViewMsg.cs",
+              "RelativeDocumentMoniker": "MVC\\IViewMsg.cs",
+              "ToolTip": "C:\\Fullsoft\\Estudos\\WalkTalk-Msg\\MVC\\IViewMsg.cs",
+              "RelativeToolTip": "MVC\\IViewMsg.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T21:35:33.09Z",
+              "WhenOpened": "2024-11-25T19:06:25.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EscolherUser.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\EscolherUser\\EscolherUser.cs",
-              "RelativeDocumentMoniker": "EscolherUser\\EscolherUser.cs",
-              "ToolTip": "C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\EscolherUser\\EscolherUser.cs [Projeto]",
-              "RelativeToolTip": "EscolherUser\\EscolherUser.cs [Projeto]",
+              "DocumentIndex": 6,
+              "Title": "Mensagem.cs",
+              "DocumentMoniker": "C:\\Fullsoft\\Estudos\\WalkTalk-Msg\\Entity\\Mensagem.cs",
+              "RelativeDocumentMoniker": "Entity\\Mensagem.cs",
+              "ToolTip": "C:\\Fullsoft\\Estudos\\WalkTalk-Msg\\Entity\\Mensagem.cs",
+              "RelativeToolTip": "Entity\\Mensagem.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACQAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T21:55:14.212Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvw4AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T21:35:33.526Z",
+              "WhenOpened": "2024-11-25T17:37:17.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ModelMsg.cs",
-              "DocumentMoniker": "C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\ModelMsg.cs",
-              "RelativeDocumentMoniker": "ModelMsg.cs",
-              "ToolTip": "C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\ModelMsg.cs",
-              "RelativeToolTip": "ModelMsg.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAuwD8AAAAIAAAA",
+              "Title": "ViewMsg.cs",
+              "DocumentMoniker": "C:\\Fullsoft\\Estudos\\WalkTalk-Msg\\MVC\\ViewMsg.cs",
+              "RelativeDocumentMoniker": "MVC\\ViewMsg.cs",
+              "ToolTip": "C:\\Fullsoft\\Estudos\\WalkTalk-Msg\\MVC\\ViewMsg.cs",
+              "RelativeToolTip": "MVC\\ViewMsg.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAADwvzQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T21:35:33.528Z",
+              "WhenOpened": "2024-11-25T14:54:34.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewMsg.cs [Projeto]",
+              "DocumentMoniker": "C:\\Fullsoft\\Estudos\\WalkTalk-Msg\\MVC\\ViewMsg.cs",
+              "RelativeDocumentMoniker": "MVC\\ViewMsg.cs",
+              "ToolTip": "C:\\Fullsoft\\Estudos\\WalkTalk-Msg\\MVC\\ViewMsg.cs [Projeto]",
+              "RelativeToolTip": "MVC\\ViewMsg.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:58:09.071Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ControllerMsg.cs",
+              "DocumentMoniker": "C:\\Fullsoft\\Estudos\\WalkTalk-Msg\\MVC\\ControllerMsg.cs",
+              "RelativeDocumentMoniker": "MVC\\ControllerMsg.cs",
+              "ToolTip": "C:\\Fullsoft\\Estudos\\WalkTalk-Msg\\MVC\\ControllerMsg.cs",
+              "RelativeToolTip": "MVC\\ControllerMsg.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACYAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:51:04.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModelMsg.cs",
+              "DocumentMoniker": "C:\\Fullsoft\\Estudos\\WalkTalk-Msg\\MVC\\ModelMsg.cs",
+              "RelativeDocumentMoniker": "MVC\\ModelMsg.cs",
+              "ToolTip": "C:\\Fullsoft\\Estudos\\WalkTalk-Msg\\MVC\\ModelMsg.cs",
+              "RelativeToolTip": "MVC\\ModelMsg.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAADwvykAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T12:21:22.176Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Mensagem.cs",
-              "DocumentMoniker": "C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\Mensagem.cs",
-              "RelativeDocumentMoniker": "Mensagem.cs",
-              "ToolTip": "C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\Mensagem.cs",
-              "RelativeToolTip": "Mensagem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Title": "Contatos.cs",
+              "DocumentMoniker": "C:\\Fullsoft\\Estudos\\WalkTalk-Msg\\Entity\\Contatos.cs",
+              "RelativeDocumentMoniker": "Entity\\Contatos.cs",
+              "ToolTip": "C:\\Fullsoft\\Estudos\\WalkTalk-Msg\\Entity\\Contatos.cs",
+              "RelativeToolTip": "Entity\\Contatos.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvwsAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T21:35:32.598Z"
+              "WhenOpened": "2024-11-25T18:09:06.183Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\EscolherUser\\Usuario.cs",
+              "DocumentMoniker": "C:\\Fullsoft\\Estudos\\WalkTalk-Msg\\EscolherUser\\Usuario.cs",
               "RelativeDocumentMoniker": "EscolherUser\\Usuario.cs",
-              "ToolTip": "C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\EscolherUser\\Usuario.cs",
+              "ToolTip": "C:\\Fullsoft\\Estudos\\WalkTalk-Msg\\EscolherUser\\Usuario.cs",
               "RelativeToolTip": "EscolherUser\\Usuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T22:54:30.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EscolherUser.cs",
-              "DocumentMoniker": "C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\EscolherUser\\EscolherUser.cs",
-              "RelativeDocumentMoniker": "EscolherUser\\EscolherUser.cs",
-              "ToolTip": "C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\EscolherUser\\EscolherUser.cs",
-              "RelativeToolTip": "EscolherUser\\EscolherUser.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAjwB8AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T22:02:49.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EscolherUser.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\EscolherUser\\EscolherUser.Designer.cs",
-              "RelativeDocumentMoniker": "EscolherUser\\EscolherUser.Designer.cs",
-              "ToolTip": "C:\\Users\\erick\\OneDrive\\\u00C1rea de Trabalho\\WalkTalk-Msg\\EscolherUser\\EscolherUser.Designer.cs",
-              "RelativeToolTip": "EscolherUser\\EscolherUser.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T23:10:55.926Z",
+              "WhenOpened": "2024-11-25T17:33:29.064Z",
               "EditorCaption": ""
             }
           ]

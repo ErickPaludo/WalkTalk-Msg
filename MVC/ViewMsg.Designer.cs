@@ -36,6 +36,8 @@
             bEnv = new Button();
             dataGridUsers = new DataGridView();
             Column1 = new DataGridViewTextBoxColumn();
+            button1 = new Button();
+            opf = new OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)dataGridUsers).BeginInit();
             SuspendLayout();
             // 
@@ -46,12 +48,14 @@
             richAllMsg.BorderStyle = BorderStyle.None;
             richAllMsg.ForeColor = SystemColors.Window;
             richAllMsg.ImeMode = ImeMode.Off;
-            richAllMsg.Location = new Point(302, 12);
+            richAllMsg.Location = new Point(345, 16);
+            richAllMsg.Margin = new Padding(3, 4, 3, 4);
             richAllMsg.Name = "richAllMsg";
             richAllMsg.ReadOnly = true;
-            richAllMsg.Size = new Size(705, 359);
+            richAllMsg.Size = new Size(806, 479);
             richAllMsg.TabIndex = 0;
             richAllMsg.Text = "";
+            richAllMsg.TextChanged += richAllMsg_TextChanged;
             // 
             // textInf
             // 
@@ -59,10 +63,11 @@
             textInf.BackColor = Color.FromArgb(64, 64, 64);
             textInf.BorderStyle = BorderStyle.FixedSingle;
             textInf.ForeColor = SystemColors.Menu;
-            textInf.Location = new Point(302, 382);
+            textInf.Location = new Point(345, 509);
+            textInf.Margin = new Padding(3, 4, 3, 4);
             textInf.Multiline = true;
             textInf.Name = "textInf";
-            textInf.Size = new Size(616, 42);
+            textInf.Size = new Size(705, 55);
             textInf.TabIndex = 1;
             // 
             // bEnv
@@ -71,9 +76,10 @@
             bEnv.BackColor = Color.FromArgb(64, 64, 64);
             bEnv.FlatStyle = FlatStyle.Popup;
             bEnv.ForeColor = SystemColors.ButtonHighlight;
-            bEnv.Location = new Point(924, 382);
+            bEnv.Location = new Point(1056, 509);
+            bEnv.Margin = new Padding(3, 4, 3, 4);
             bEnv.Name = "bEnv";
-            bEnv.Size = new Size(83, 42);
+            bEnv.Size = new Size(95, 56);
             bEnv.TabIndex = 2;
             bEnv.Text = "Enviar";
             bEnv.UseVisualStyleBackColor = false;
@@ -101,7 +107,8 @@
             dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.False;
             dataGridUsers.DefaultCellStyle = dataGridViewCellStyle1;
-            dataGridUsers.Location = new Point(12, 12);
+            dataGridUsers.Location = new Point(14, 16);
+            dataGridUsers.Margin = new Padding(3, 4, 3, 4);
             dataGridUsers.Name = "dataGridUsers";
             dataGridUsers.ReadOnly = true;
             dataGridUsers.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
@@ -115,7 +122,7 @@
             dataGridUsers.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             dataGridUsers.RowHeadersVisible = false;
             dataGridUsers.RowTemplate.Height = 50;
-            dataGridUsers.Size = new Size(284, 412);
+            dataGridUsers.Size = new Size(325, 549);
             dataGridUsers.TabIndex = 3;
             dataGridUsers.CellClick += EscolheUser;
             // 
@@ -126,17 +133,39 @@
             Column1.Name = "Column1";
             Column1.ReadOnly = true;
             // 
+            // button1
+            // 
+            button1.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            button1.BackColor = Color.FromArgb(64, 64, 64);
+            button1.FlatStyle = FlatStyle.Popup;
+            button1.ForeColor = SystemColors.ButtonHighlight;
+            button1.Location = new Point(1056, 509);
+            button1.Margin = new Padding(3, 4, 3, 4);
+            button1.Name = "button1";
+            button1.Size = new Size(95, 56);
+            button1.TabIndex = 4;
+            button1.Text = "Anexo";
+            button1.UseVisualStyleBackColor = false;
+            button1.Visible = false;
+            button1.Click += AnexarImg;
+            // 
+            // opf
+            // 
+            opf.FileName = "openFileDialog1";
+            // 
             // ViewMsg
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlDarkDark;
-            ClientSize = new Size(1020, 450);
+            ClientSize = new Size(1166, 600);
+            Controls.Add(button1);
             Controls.Add(dataGridUsers);
             Controls.Add(bEnv);
             Controls.Add(textInf);
             Controls.Add(richAllMsg);
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(3, 4, 3, 4);
             Name = "ViewMsg";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "WallTalkMsg";
@@ -152,5 +181,7 @@
         private Button bEnv;
         private DataGridView dataGridUsers;
         private DataGridViewTextBoxColumn Column1;
+        private Button button1;
+        private OpenFileDialog opf;
     }
 }

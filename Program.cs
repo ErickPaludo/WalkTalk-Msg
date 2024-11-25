@@ -1,3 +1,5 @@
+using WalkTalk.MVC;
+
 namespace WalkTalk
 {
     internal static class Program
